@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(96, 106, 170);
+  /* background-image:url(HosHos.png) ;*/
+  display: grid;
+
+}
+#icon {
+  width: 40px;
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+p {
+  color: white;
+}
+
+#icon {
+  width: 40px;
+  height: 40px;
+}
+
+ .footer ,footer {
+
+  grid-auto-flow: row;
+  text-align: center;
+}
+
+/*
+    .line{
+        text-align: calc(4);
+        grid: 10px;
+        margin: 10px ;
+       padding:50px;
+    }*/
+
+
+.line {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+  padding: 40px;
+  grid-gap: 40px;
+
+
+}
+
+.linee {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  padding: 40px;
+  grid-gap: 40px;
+
+
+}
+
+img {
+  width: 100%;
+}
+
+.k {
+  border: 1px solid white (0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  grid-gap: 10px;
+  text-decoration: solid;
+}
+
+h1 {
+  text-align: center;
+}
+
+.horz {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(174, 181, 218);
+  padding: 10px;
+  grid-gap: 10px;
+
+}
+
+.vert {
+  border: 1px solid white (0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #111111;
+  grid-gap: 10px;
+  text-decoration: solid;
+
+
+}
+
+

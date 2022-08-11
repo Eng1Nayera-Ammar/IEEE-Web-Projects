@@ -1,0 +1,138 @@
+body {
+
+  background-color: rgba(171, 177, 226, 0.981);
+  display: grid;
+
+}
+
+/* Style the h1  */
+h1 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  list-style-position: inside;
+  text-align: center;
+
+}
+
+
+.column {
+
+  padding: 30px;
+
+  text-align: center;
+  border-top: 10px;
+  border-bottom: 10px;
+  box-shadow: 5px;
+  border: 1px solid white (0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 15px;
+
+  margin: auto;
+
+  grid-gap: 10px;
+}
+
+
+/* Clear floats after the columns */
+.row {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  /*
+  content: normal;
+  display: table;
+  clear: both; */
+  text-align: center;
+}
+
+
+#Aname,
+#Bname,
+#email,
+#Pass,
+#Phone,
+#birthday,
+#Job,
+#sub,
+#click {
+  height: 30px;
+  width: 400px;
+
+}
+
+.sub {
+  text-align: center;
+
+}
+
+#sub {
+  font-size: 20px;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+p {
+  color: white;
+}
+
+#icon {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+
+  text-align: center;
+}
+
+.horz {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(174, 181, 218);
+  padding: 10px;
+  grid-gap: 10px;
+
+}
+
+.vert {
+  border: 1px solid white (0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #111111;
+  grid-gap: 10px;
+  text-decoration: solid;
+
+
+}

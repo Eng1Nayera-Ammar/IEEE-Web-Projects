@@ -1,0 +1,165 @@
+/*.HF {
+  font: size 50px;
+  ;
+  font-style: oblique;
+  font-weight: 20;
+
+
+}
+
+
+ #email
+{
+  
+
+
+.row{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: grey;
+  padding: 10px;
+  grid-gap: 10px;
+  font-size: 20;
+ 
+}
+
+.coloum {
+  border: 5px solid rgba(3, 3, 65, 0.712) (0, 0);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  
+  grid-gap: 10px;
+}*/
+.row {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(186, 191, 224);
+  padding: 20px;
+  grid-gap: 20px;
+
+}
+
+.sub {
+  text-align: center;
+
+}
+
+#sub {
+  font-size: 20px;
+  height: 30px;
+  width: 400px;
+}
+
+.coloum {
+  border: 1px solid white (0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #111111;
+  grid-gap: 10px;
+  text-decoration: solid;
+
+  background-color: rgba(166, 173, 226, 0.938);
+}
+
+#email {
+  width: 350px;
+  height: 40px;
+}
+
+#pass {
+  width: 350px;
+  height: 40px;
+  text-align: justify;
+}
+
+body {
+  background-color: rgba(233, 235, 247, 0.981);
+  display: grid;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+p {
+  color: black;
+  font-size: 30px;
+  font-weight: 20;
+  text-decoration: solid;
+  text-align: left;
+}
+
+#icon {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+
+  text-align: center;
+}
+
+#pass,
+#email {
+  height: 30px;
+  width: 400px;
+
+}
+
+.horz {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(174, 181, 218);
+  padding: 10px;
+  grid-gap: 10px;
+
+}
+
+.vert {
+  border: 1px solid white (0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #111111;
+  grid-gap: 10px;
+  text-decoration: solid;
+
+
+}
+
+h1 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  list-style-position: inside;
+  text-align: center;
+
+}
